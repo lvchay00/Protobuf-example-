@@ -42,5 +42,5 @@ func main() {
 		log.Fatalln("UnMashal data error:", err)
 	}
 
-	fmt.Printf("%v", target.Per) // 打印第一个 person Name 的值进行反序列化验证
+	fmt.Printf("%v", target.Per) // 打印person Name 的值进行反序列化验证
 }
